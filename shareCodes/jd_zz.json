@@ -1,1 +1,12 @@
 
+{
+  "id": "FPE4nZonHEZ5iIQk",
+  "status": "finished",
+  "timestamp": "2022-01-26T15:16:59.407Z",
+  "paths": {
+    "https://github.com/xfchu1988/jdxfchu/edit/main/shareCodes/jd_zz.json: {
+      "throttled": true,
+      "throttlingReset": 3379
+    }
+  }
+}
