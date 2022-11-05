@@ -132,7 +132,7 @@ const {
     getEnvByPtPin
 } = require('./ql');
 const fs = require('fs');
-let strCKFile = '/ql/data/scripts/xfchu1988_xf/CKName_cache.json';
+let strCKFile = '/ql/data/scripts/xfchu1988_zlk/CKName_cache.json';
 let Fileexists = fs.existsSync(strCKFile);
 let TempCK = [];
 if (Fileexists) {
@@ -143,7 +143,7 @@ if (Fileexists) {
         TempCK = JSON.parse(TempCK);
     }
 }
-let strUidFile = '/ql/data/scripts/xfchu1988_xf/CK_WxPusherUid.json';
+let strUidFile = '/ql/data/scripts/xfchu1988_zlk/CK_WxPusherUid.json';
 let UidFileexists = fs.existsSync(strUidFile);
 let TempCKUid = [];
 if (UidFileexists) {
